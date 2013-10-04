@@ -11,31 +11,31 @@
  <div class="resourceFilter">
  
     <a href="#" data-filter="*" class="current">All Categories</a>
-    <a href="#" data-filter=".html">People</a>
-    <a href="#" data-filter=".css">Places</a>
-    <a href="#" data-filter=".ruby">Food</a>
-    <a href="#" data-filter=".rails">Objects</a>
+    <a href="#" data-filter=".html">HTML</a>
+    <a href="#" data-filter=".css">CSS</a>
+    <a href="#" data-filter=".ruby">Ruby</a>
+    <a href="#" data-filter=".rails">Rails</a>
  
 </div>
  
 <div class="courseContainer">
  
-    <div class="objects">
-        <img src="images/watch.jpg" alt="image">
+    <div class="html">
+        <img src="images/html.png" alt="image">
     </div>
  
-    <div class="people places">
-        <img src="images/surf.jpg" alt="image">
+    <div class="css">
+        <img src="images/css.png" alt="image">
     </div>    
  
-    <div class="food">
-        <img src="images/burger.jpg" alt="image">
+    <div class="rails">
+        <img src="images/rails.png" alt="image">
     </div>
      
-    <div class="people places">
-        <img src="images/subway.jpg" alt="image">
+    <div class="ruby">
+        <img src="images/ruby.png" alt="image">
     </div>
- 
+ <!-- 
     <div class="places objects">
         <img src="images/trees.jpg" alt="image">
     </div>
@@ -50,7 +50,7 @@
      
     <div class="food">
         <img src="images/salad.jpg" alt="image">
-    </div>    
+    </div>    --> 
  
 </div>
 
@@ -69,8 +69,8 @@ $(window).load(function(){
         }
     });
  
-    $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
+    $('.resourceFilter a').click(function(){
+        $('.resourceFilter .current').removeClass('current');
         $(this).addClass('current');
  
         var selector = $(this).attr('data-filter');
