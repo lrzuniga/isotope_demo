@@ -2,13 +2,13 @@ body {
     font-family: Arial;
 }
  
-.portfolioFilter a { 
+.resourceFilter a { 
     margin-right: 10px; 
     color:#666;
     text-decoration:none;
 }
  
-.portfolioFilter a.current { 
+.resourceFilter a.current { 
     font-weight:bold;
 }
  

@@ -8,17 +8,17 @@
 </head>
 <body>
  
- <div class="portfolioFilter">
+ <div class="resourceFilter">
  
     <a href="#" data-filter="*" class="current">All Categories</a>
-    <a href="#" data-filter=".people">People</a>
-    <a href="#" data-filter=".places">Places</a>
-    <a href="#" data-filter=".food">Food</a>
-    <a href="#" data-filter=".objects">Objects</a>
+    <a href="#" data-filter=".html">People</a>
+    <a href="#" data-filter=".css">Places</a>
+    <a href="#" data-filter=".ruby">Food</a>
+    <a href="#" data-filter=".rails">Objects</a>
  
 </div>
  
-<div class="portfolioContainer">
+<div class="courseContainer">
  
     <div class="objects">
         <img src="images/watch.jpg" alt="image">
@@ -59,7 +59,7 @@
 <script type="text/javascript">
  
 $(window).load(function(){
-    var $container = $('.portfolioContainer');
+    var $container = $('.courseContainer');
     $container.isotope({
         filter: '*',
         animationOptions: {
